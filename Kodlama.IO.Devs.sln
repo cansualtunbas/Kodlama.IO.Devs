@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B6F03D89-A5A1-41D2-81F7-FFD5099CFC51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kodlama.IO.Devs", "Kodlama.IO.Devs", "{BD84F540-5872-4539-AC76-0AE737F25F4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Kodlama.IO.Devs\Application\Application.csproj", "{682D0C32-4CC9-40CC-BE3A-8814AE47AB06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\Kodlama.IO.Devs\Persistence\Persistence.csproj", "{41CCF28A-94D9-40BE-A855-CADBFCABDE8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Kodlama.IO.Devs\Domain\Domain.csproj", "{C8E23C64-FE6C-4CA3-93E9-59A7815FB359}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Kodlama.IO.Devs\Infrastructure\Infrastructure.csproj", "{D76B3A2E-B14A-48A8-8928-406EC350AA27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.API", "src\Kodlama.IO.Devs\Web.API\Web.API.csproj", "{7157337C-D213-4873-AEB6-20C24129F917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{682D0C32-4CC9-40CC-BE3A-8814AE47AB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682D0C32-4CC9-40CC-BE3A-8814AE47AB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682D0C32-4CC9-40CC-BE3A-8814AE47AB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682D0C32-4CC9-40CC-BE3A-8814AE47AB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CCF28A-94D9-40BE-A855-CADBFCABDE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CCF28A-94D9-40BE-A855-CADBFCABDE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CCF28A-94D9-40BE-A855-CADBFCABDE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CCF28A-94D9-40BE-A855-CADBFCABDE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E23C64-FE6C-4CA3-93E9-59A7815FB359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E23C64-FE6C-4CA3-93E9-59A7815FB359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E23C64-FE6C-4CA3-93E9-59A7815FB359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E23C64-FE6C-4CA3-93E9-59A7815FB359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76B3A2E-B14A-48A8-8928-406EC350AA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76B3A2E-B14A-48A8-8928-406EC350AA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76B3A2E-B14A-48A8-8928-406EC350AA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76B3A2E-B14A-48A8-8928-406EC350AA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7157337C-D213-4873-AEB6-20C24129F917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7157337C-D213-4873-AEB6-20C24129F917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7157337C-D213-4873-AEB6-20C24129F917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7157337C-D213-4873-AEB6-20C24129F917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD84F540-5872-4539-AC76-0AE737F25F4B} = {B6F03D89-A5A1-41D2-81F7-FFD5099CFC51}
+		{682D0C32-4CC9-40CC-BE3A-8814AE47AB06} = {BD84F540-5872-4539-AC76-0AE737F25F4B}
+		{41CCF28A-94D9-40BE-A855-CADBFCABDE8D} = {BD84F540-5872-4539-AC76-0AE737F25F4B}
+		{C8E23C64-FE6C-4CA3-93E9-59A7815FB359} = {BD84F540-5872-4539-AC76-0AE737F25F4B}
+		{D76B3A2E-B14A-48A8-8928-406EC350AA27} = {BD84F540-5872-4539-AC76-0AE737F25F4B}
+		{7157337C-D213-4873-AEB6-20C24129F917} = {BD84F540-5872-4539-AC76-0AE737F25F4B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4570BC1-1DBA-489B-848F-1A1F53F96D8F}
+	EndGlobalSection
+EndGlobal
