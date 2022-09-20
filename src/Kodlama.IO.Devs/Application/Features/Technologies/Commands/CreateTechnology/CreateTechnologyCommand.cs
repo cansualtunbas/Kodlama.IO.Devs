@@ -20,6 +20,7 @@ namespace Application.Features.Technologies.Commands.CreateTechnology
 
         public class CreateTechnologyCommandHandler : IRequestHandler<CreateTechnologyCommand, CreatedTechnologyEntityDto>
         {
+
             private readonly ITechnologyRepository _technologyRepository;
             private readonly IMapper _mapper;
             private readonly TechnologyBusinessRules _technologyBusinessRules;
